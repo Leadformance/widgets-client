@@ -128,11 +128,13 @@
 				font-size:10pt;
 			}
 			
-			.lf_storeLocatorWidget_poslist address span {
+			.lf_storeLocatorWidget_poslist address span,
+			.lf_storeLocatorWidget_poslist address a {
 				font-weight:700;
 				color:#063763;
 				font-size:10pt;
 				text-transform:uppercase;
+				text-decoration: none;
 			}
 			
 			
