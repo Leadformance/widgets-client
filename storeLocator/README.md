@@ -1,7 +1,14 @@
 Store Locator plugin
 ====================
 
-## V1.0.3
+Version History
+--------------------------------------
+
+### 1.1 ###
+- api_uri is now customizable
+- Changed a variable from 'language' to 'lan' which was the reason why IE crashed 
+- Changed the alert to window.console for logging purpose
+- Added a <a> around the <span> of the pos title
 
 Plugin setup
 --------------------------------------
