@@ -20,14 +20,16 @@ To use the widget you'll need ( _these lines are already provided in the package
 1. jQuery >= 1.7.1 ( http://code.jquery.com/jquery-1.7.2.min.js )
 2. Include Google Map V3 API ( http://maps.google.com/maps/api/js?sensor=false )
 3. Include Store Locator plugin ( http://widgets.leadformance.com/storeLocator/v1/lf_storelocator.min.js )
-4. Call the plugin :
+4. Call the plugin ( _default values_ ):
 
 				<script type="text/javascript">  
 					$(function(){  
 						$('.lf_storeLocatorWidget').lf_storelocator({  
-							api_key: "myapikey"; 
-							api_uri: "myapiURL";
-							fo_uri: "myfoURL"
+							api_key: "myapikey", 
+							api_uri: "myapiURL",
+							fo_uri: "myfoURL",
+							allow_geolocation: true,
+							lang: "fr"
 						});  
 					});  
 				</script>
