@@ -15,7 +15,8 @@ Plugin setup
 
 In order to work with the store locator plugin, you will have to ask for the server side javascript URL to Leadformance. This javascript file should be included in your page as of jQuery >= 1.7 and Google Map V3 API.
 
-To use the widget you'll need (these lines are already provided in the package): 
+To use the widget you'll need ( _these lines are already provided in the package_ ): 
+
 1. jQuery >= 1.7.1 ( http://code.jquery.com/jquery-1.7.2.min.js )
 2. Include Google Map V3 API ( http://maps.google.com/maps/api/js?sensor=false )
 3. Include Store Locator plugin ( http://widgets.leadformance.com/storeLocator/v1/lf_storelocator.min.js )
