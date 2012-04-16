@@ -6,18 +6,19 @@ Version History
 
 ### 1.1 ###
 - api_uri is now customizable
-- Changed a variable from 'language' to 'lan' which was the reason why IE crashed 
+- Changed a variable from 'language' to 'lang' which was the reason why IE crashed 
 - Changed the alert to window.console for logging purpose
-- Added a <a> around the <span> of the pos title
+- Added a around the <span> of the pos title
 
 Plugin setup
 --------------------------------------
 
 In order to work with the store locator plugin, you will have to ask for the server side javascript URL to Leadformance. This javascript file should be included in your page as of jQuery >= 1.7 and Google Map V3 API.
 
-1. Include jQuery >= 1.7
-2. Include Google Map V3 API (http://maps.google.com/maps/api/js?sensor=false)
-3. Include Store Locator plugin
+To use the widget you'll need (these lines are already provided in the package): 
+1. jQuery >= 1.7.1 ( http://code.jquery.com/jquery-1.7.2.min.js )
+2. Include Google Map V3 API ( http://maps.google.com/maps/api/js?sensor=false )
+3. Include Store Locator plugin ( http://widgets.leadformance.com/storeLocator/v1/lf_storelocator.min.js )
 4. Call the plugin :
 
 				<script type="text/javascript">  
