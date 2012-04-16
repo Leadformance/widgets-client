@@ -8,7 +8,7 @@ Version History
 - api_uri is now customizable
 - Changed a variable from 'language' to 'lang' which was the reason why IE crashed 
 - Changed the alert to window.console for logging purpose
-- Added a around the <span> of the pos title
+- Added a a link around the span of the pos title
 
 Plugin setup
 --------------------------------------
