@@ -13,7 +13,7 @@ Version History
 Plugin setup
 --------------------------------------
 
-To use the store Locator plugin you'll need ( _these lines are already provided in the package_ ): 
+To use the store Locator plugin you'll need ( _these lines are already provided in index.html in the package_ ): 
 
 1. jQuery >= 1.7.1 ( http://code.jquery.com/jquery-1.7.2.min.js )
 2. Include Google Map V3 API ( http://maps.google.com/maps/api/js?sensor=false )
