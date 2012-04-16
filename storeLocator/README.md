@@ -25,7 +25,9 @@ To use the widget you'll need ( _these lines are already provided in the package
 				<script type="text/javascript">  
 					$(function(){  
 						$('.lf_storeLocatorWidget').lf_storelocator({  
-							api_key: "myapikey"  
+							api_key: "myapikey"; 
+							api_uri: "myapiURL";
+							fo_uri: "myfoURL"
 						});  
 					});  
 				</script>
@@ -72,7 +74,8 @@ Point of sale information you want to be displayed.
 
 ### lang ###
 Type : String  
-Default : "en"  
+Default : "en"
+Available : "fr", "de", "nl"
 If the language asked isn't found, it'll display english texts.  
 
 ### lang_override ###
