@@ -54,7 +54,7 @@ Your Front office URL. If missing, some fonctionnality will be disabled.
 ### allow_geolocation ###
 Type : boolean  
 Default : true  
-Allow your visitor to use geolocation fonctionnality (only available for compatible browsers)  
+Allow your visitor to use geolocation fonctionnality (only available for compatible browsers : IE9+, FF3.5+, Chrome 5+, Safari 5+, Opera 10.60+)  
 
 ### pos_infos ###
 Type : String  
