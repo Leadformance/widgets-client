@@ -10,6 +10,9 @@ Version History
 - Changed the alert to window.console for logging purpose
 - Added a a link around the span of the pos title
 
+### 1.2 ###
+Added a compatible JS file for jQuery < 1.5 versions
+
 Plugin setup
 --------------------------------------
 
