@@ -1,0 +1,151 @@
+
+/*******************************/
+/**  LeadFormance Widget CSS  **/
+/**  v1.0 - Widget - ALPIXEL  **/
+/*******************************/
+.lf_storeLocatorWidget {}
+.lf_storeLocatorWidget .clr {clear:both;height:0;width:0;}
+.lf_storeLocatorWidget .lf_error {font-size:9pt;color:#5a5e62;padding:10px;display:none;}
+.lf_storeLocatorWidget .lf_error a{font-size:9pt;color:#5a5e62;text-decoration:underline;}
+.lf_storeLocatorWidget .hidden{display:none}
+
+
+/** reset **/
+.lf_storeLocatorWidget * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-family:Arial;
+}
+
+	/** main container **/
+	.lf_storeLocatorWidget {
+		width:250px;
+		background-color:#cfe2f3
+	}
+		
+		/** Search form **/
+		.lf_storeLocatorWidget form{}
+		
+			.lf_storeLocatorWidget fieldset {
+				width:220px;
+				padding:20px 15px;
+				border-bottom:1px solid white;
+			}
+			
+				.lf_storeLocatorWidget label {
+					color:#063763;
+					display:block;
+					height:17px;
+					line-height:17px;
+					font-size:10pt;
+				}
+				
+				.lf_storeLocatorWidget input {
+					background-color:#fff;
+					width: 179px;
+					height: 13px;
+					padding: 5px;
+					float: left; 
+					font-size:9pt;
+					border: 1px solid #9fc5e8;
+					margin-right:2px;
+					color:#063763;
+					margin-top:5px
+				}
+				
+				.lf_storeLocatorWidget input.submit {
+					height: 25px;
+					width:25px;
+					padding:0; 
+					cursor: pointer;
+					background:transparent url('../img/widget_subt.jpg') no-repeat;
+					border:0;
+				}
+				
+				.lf_storeLocatorWidget .lf_geoloc {
+					clear:both;float:none;
+					display:block;
+					color:#fff;
+					background-color:#063763;
+					text-decoration:none;
+					font-size:9pt;
+					padding:6px 8px;
+					margin-top:10px;
+					width:170px;
+				}
+			
+			
+		/** loader **/
+		.lf_storeLocatorWidget_loader {
+			width:100%;
+			height:0px;
+			color:#063763
+		}
+		
+		
+	
+		/** GG Maps **/
+		.lf_storeLocatorWidget_ggmaps {
+			height:200px;
+			width:250px;
+			
+		}
+		
+		/** Results list **/
+		.lf_storeLocatorWidget_result
+		{
+			display: none;
+		}
+		
+		.lf_storeLocatorWidget_poslist ul{list-style:none;}
+		.lf_storeLocatorWidget_poslist li{border-bottom:1px solid #fff;padding:10px;}
+		
+			.lf_storeLocatorWidget_marker {
+				display:block;
+				float:left;
+				
+				width:41px;
+				height:44px;
+				text-align:center;
+				color:#fff;
+				padding-top:9px;
+				font-weight:700;
+				font-size:15pt;
+				background:transparent url('../img/marker.png');
+			}
+			
+			.lf_storeLocatorWidget_poslist address {
+				float:left;
+				width:179px;
+				font-style:normal;
+				margin-left:10px;
+				color:#5a5e62;
+				font-size:10pt;
+			}
+			
+			.lf_storeLocatorWidget_poslist address span,
+			.lf_storeLocatorWidget_poslist address a {
+				font-weight:700;
+				color:#063763;
+				font-size:10pt;
+				text-transform:uppercase;
+				text-decoration: none;
+			}
+			
+			
+		/** Push View More **/
+		.lf_storeLocatorWidget_viewMore {
+			display:block;
+			color:#fff;
+			background:#063763 url('../img/bg_view_more.png') no-repeat right;
+			text-decoration:none;
+			font-size:9pt;
+			padding:6px 8px;
+			width: 234px;
+			height: 15px;
+		}
