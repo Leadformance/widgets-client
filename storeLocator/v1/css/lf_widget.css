@@ -1,8 +1,9 @@
 
-/*******************************/
-/**  LeadFormance Widget CSS  **/
-/**  v1.0 - Widget - ALPIXEL  **/
-/*******************************/
+/**************************************/
+/**  LeadFormance Widget CSS         **/
+/**  v1.0 - Widget - ALPIXEL         **/
+/**  v1.3.7 - Widget - LEADFORMANCE  **/
+/**************************************/
 .lf_storeLocatorWidget {}
 .lf_storeLocatorWidget .clr {clear:both;height:0;width:0;}
 .lf_storeLocatorWidget .lf_error {font-size:9pt;color:#5a5e62;padding:10px;display:none;}
@@ -37,18 +38,18 @@
 				border-bottom:1px solid white;
 			}
 			
-				.lf_storeLocatorWidget label {
+				.lf_storeLocatorWidget label,.lf_storeLocatorWidget label a {
 					color:#063763;
 					display:block;
 					height:17px;
 					line-height:17px;
 					font-size:10pt;
+					text-decoration:none;
 				}
 				
 				.lf_storeLocatorWidget input {
 					background-color:#fff;
 					width: 179px;
-					height: 13px;
 					padding: 5px;
 					float: left; 
 					font-size:9pt;
@@ -63,8 +64,9 @@
 					width:25px;
 					padding:0; 
 					cursor: pointer;
-					background:transparent url('../img/widget_subt.jpg') no-repeat;
+					background:transparent url('../img/widget_subt.png') no-repeat;
 					border:0;
+					background-color: #063762;
 				}
 				
 				.lf_storeLocatorWidget .lf_geoloc {
@@ -77,7 +79,15 @@
 					padding:6px 8px;
 					margin-top:10px;
 					width:170px;
+					height:14px;
 				}
+				
+				.lf_storelocatorwidget .maxmind {
+					position: relative;
+					width: 135px;
+					font-size:9px
+				}
+
 			
 			
 		/** loader **/
@@ -100,6 +110,8 @@
 		.lf_storeLocatorWidget_result
 		{
 			display: none;
+			position:absolute;
+			background-color:#cfe2f3;
 		}
 		
 		.lf_storeLocatorWidget_poslist ul{list-style:none;}
@@ -137,7 +149,8 @@
 				text-decoration: none;
 			}
 			
-			
+		.lf_storeLocatorWidget_poslist li.inactif { background-color:grey }
+	
 		/** Push View More **/
 		.lf_storeLocatorWidget_viewMore {
 			display:block;
@@ -149,3 +162,13 @@
 			width: 234px;
 			height: 15px;
 		}
+		
+.lf_storeLocatorWidget .lf_openinghoursdays {background-color:#8FAFDB;float:left;margin-left:-40px}
+.lf_storeLocatorWidget .lf_openinghoursdays .day strong {float: left;width:70px;padding: 0px;}
+.lf_storeLocatorWidget .lf_openinghoursdays .day ul {float: left;width: 120px;margin: 0 10px;}
+.lf_storeLocatorWidget .lf_openinghoursdays .day {text-align:right;float: left;padding: 0px 0px 3px 0px;padding-left: 0px;border-bottom: 1px solid #FFFFFF;}
+.lf_storeLocatorWidget .lf_openinghoursdays .today {color:white}
+.lf_storeLocatorWidget .lf_openinghoursdays .lf_normalopeninghours li {border:none;padding:0px}
+.lf_storeLocatorWidget .lf_openinghoursdays h4 {color:white}
+.lf_storeLocatorWidget .lf_distantexceptionalopeninghours {background-color:#8FAFDB;float:left;margin-left:-40px;width:219px}
+.lf_storeLocatorWidget .lf_distantexceptionalopeninghours h4 {color:white}
