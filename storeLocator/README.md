@@ -175,6 +175,12 @@ Type : Boolean
 Default : false
 Used to display standard and exceptional opening hours. Used to display time before to close.
 
+### extra_search ###
+Type : String  
+Default : ""
+Allow to apply a smart tag filter directly on the search. 
+This filter is different than "filter_values" because with "filter_values" the filter is applied after the search. 
+With this parameter, the filter is applied during the search.   
 
 CSS customization
 --------------------------------------
