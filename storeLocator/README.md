@@ -136,14 +136,12 @@ Override the default language and the "lang" parameter.
 ### filter_values ###
 Type : String  
 Default : ""
-Contains the list of values used by the filter. The goal is to filter the search result.
-If there is multiple values, you have to separate them with the couple of characters "##"
+Contains the list of values used by the filter. The goal is to filter the search result. If there is multiple values, you have to separate them with the couple of characters "##"
 
 ### filter_name ###
 Type : String  
 Default : ""
-Name of the field used to filter the search result. If the name is not "id","custom_id" or "service_inventory_id", it's a smart tag
-!!WARNING!! : In case of smart tag, the widget do a call for each pos in the search result. Thus, your credit will be decremented for each call.
+Name of the field used to filter the search result. If the name is not "id","custom_id" or "service_inventory_id", it's a smart tag. **!!WARNING!!** : In case of smart tag, the widget do a call for each pos in the search result. Thus, your credit will be decremented for each call.
 
 ### filter_hide ###
 Type : Boolean  
@@ -177,10 +175,8 @@ Used to display standard and exceptional opening hours. Used to display time bef
 
 ### extra_search ###
 Type : String  
-Default : ""
-Allow to apply a smart tag filter directly on the search. 
-This filter is different than "filter_values" because with "filter_values" the filter is applied after the search. 
-With this parameter, the filter is applied during the search.   
+Default : "" 
+Allow to apply a smart tag filter directly on the search. This filter is different than "filter_values" because with "filter_values" the filter is applied after the search. With this parameter, the filter is applied during the search.   
 
 CSS customization
 --------------------------------------
