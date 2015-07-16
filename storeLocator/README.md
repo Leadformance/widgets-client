@@ -179,6 +179,16 @@ Type : String
 Default : "" 
 Allow to apply a smart tag filter directly on the search. This filter is different than "filter_values" because with "filter_values" the filter is applied after the search. With this parameter, the filter is applied during the search.   
 
+Event triggered
+--------------------------------------
+All events below are triggered at the body level
+
+lf_widget_end_error : Event triggered if an error is raised after the call to the API
+lf_widget_end_no_result : Event triggered if there is no result after the call to the API
+lf_widget_end_with_results : Event triggered if there is at least a result after the call to the API
+
+
+
 CSS customization
 --------------------------------------
 
