@@ -11,6 +11,7 @@ Version History
 - Added an option to call automatically the widget
 - Use pos type parameter to not display the link on pos title if there is no pos page
 - Fix geolocation on IE7/8/9 and Firefox 3.0
+- Add event after result displaying
 
 ### 1.2 ###
 Added a compatible JS file for jQuery < 1.5 versions
