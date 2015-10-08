@@ -4,6 +4,17 @@ Store Locator plugin
 Version History
 --------------------------------------
 
+### 2.1 ###
+-   New option 'use_autocomplete' to display autocomplete on demand
+
+### 2.0
+-   Compatibility with Jquery 1.11.x
+-   Stop the support for IE8 
+-   Fix exceptional opening hours displaying
+-   New option 'display_fax' to display fax on demand
+-   Add label for Tel & Fax
+-   Mobile compliant
+
 ### 1.3 ###
 - Added an option to filter search result
 - Added an option to display opening hours and time before to close
@@ -27,9 +38,9 @@ Plugin setup
 
 To use the store Locator plugin you'll need ( _these lines are already provided in index.html in the package_ ): 
 
-1. jQuery >= 1.7.1 ( http://code.jquery.com/jquery-1.7.2.min.js )
+1. jQuery >= 1.7.1 ( http://code.jquery.com/jquery-1.11.2.min.js )
 2. Include Google Map V3 API ( http://maps.google.com/maps/api/js?sensor=false )
-3. Include Store Locator plugin ( http://widgets.leadformance.com/storeLocator/v1/lf_storelocator.min.js )
+3. Include Store Locator plugin ( http://widgets.leadformance.com/storeLocator/v2/lf_storelocator.min.js )
 4. Call the plugin ( _default values_ ):
 
 				<script type="text/javascript">  
@@ -120,6 +131,8 @@ Override the default language and the "lang" parameter.
 * hours_tbtc_opened
 * hours_tbtc_hour
 * formLabelGeolocIE8
+* tel
+* fax
 		
 **Example :**
 
@@ -178,6 +191,16 @@ Used to display standard and exceptional opening hours. Used to display time bef
 Type : String  
 Default : "" 
 Allow to apply a smart tag filter directly on the search. This filter is different than "filter_values" because with "filter_values" the filter is applied after the search. With this parameter, the filter is applied during the search.   
+
+### display_fax ###
+Type : Boolean  
+Default : false
+Used to display the fax number.
+
+### use_autocomplete ###
+Type : Boolean  
+Default : true
+Used to the autocomplete in the query search.
 
 Event triggered
 --------------------------------------
