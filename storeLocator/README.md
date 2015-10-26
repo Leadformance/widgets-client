@@ -4,6 +4,15 @@ Store Locator plugin
 Version History
 --------------------------------------
 
+### 2.2 ###
+-   Use option 'contact_form' to display the cta to redirect the user to the pos page
+-   Display point of sale type label
+-   Add marker on the map with the position of gelocalized position
+-   New option 'display_map' to display map on demand
+-   New options 'distance_unit' and 'distance_ratio' to display distance. The default unit is km
+-   New option 'remove_url' to remove point of sale url
+-   Hide "Or" label if "allow_geolocation" parameter is equal to false
+
 ### 2.1 ###
 -   New option 'use_autocomplete' to display autocomplete on demand
 
@@ -201,6 +210,26 @@ Used to display the fax number.
 Type : Boolean  
 Default : true
 Used to the autocomplete in the query search.
+
+### remove_url ###
+Type : Boolean  
+Default : false
+Used to remove the point of sale link 
+
+### distance_unit ###
+Type : String  
+Default : km
+Used to display the distance
+
+### distance_ratio ###
+Type : Float  
+Default : 1
+Used to display the distance
+
+### display_map ###
+Type : Boolean  
+Default : true
+Used to display the map
 
 Event triggered
 --------------------------------------
