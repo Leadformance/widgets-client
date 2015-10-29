@@ -235,9 +235,9 @@ Event triggered
 --------------------------------------
 All events below are triggered at the body level
 
-lf_widget_end_error : Event triggered if an error is raised after the call to the API
-lf_widget_end_no_result : Event triggered if there is no result after the call to the API
-lf_widget_end_with_results : Event triggered if there is at least a result after the call to the API
+* **lf_widget_end_error** : Event triggered if an error is raised after the call to the API
+* **lf_widget_end_no_result** : Event triggered if there is no result after the call to the API
+* **lf_widget_end_with_results** : Event triggered if there is at least a result after the call to the API
 
 
 
@@ -251,4 +251,5 @@ You can fully customize the HTML with the CSS joined to your package. Take care 
 * **.lf_storeLocatorWidget_submit** for the search button
 * **.lf_storeLocatorWidget .lf_openinghoursdays** for opening hours
 * **.lf_storeLocatorWidget .lf_distantexceptionalopeninghours** for exceptional opening hours
+* **.autocomplete-suggestions** for the autocomplete
 
