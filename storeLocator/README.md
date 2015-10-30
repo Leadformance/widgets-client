@@ -4,6 +4,9 @@ Store Locator plugin
 Version History
 --------------------------------------
 
+### 2.3 ###
+-   Add 'extra_search' in the function 'launch_lf_storelocator'
+
 ### 2.2 ###
 -   Use option 'contact_form' to display the cta to redirect the user to the pos page
 -   Display point of sale type label
