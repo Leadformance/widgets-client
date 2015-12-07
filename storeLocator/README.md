@@ -4,6 +4,14 @@ Store Locator plugin
 Version History
 --------------------------------------
 
+### 2.4 ###
+
+-   Add a class to all elements / Add data-translation parameter
+
+### 2.3.1 ###
+
+-   Update the method displaying the button 'contact us'
+
 ### 2.3 ###
 -   Add 'extra_search' in the function 'launch_lf_storelocator'
 
